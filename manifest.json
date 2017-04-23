@@ -1,0 +1,13 @@
+﻿{
+    "manifest_version": 2,
+    "name": "autoinput",
+    "description": "超A&Gでご利用登録を自動で入力し、submitを行う。",
+    "version": "0.1",
+    "content_scripts": [
+	{
+	"matches": ["http://www.uniqueradio.jp/form/form4-sp2.php"],
+	"css" : [],
+	"js" : [ "autoinput.js" ]
+	}
+    ]
+}
