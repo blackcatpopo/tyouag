@@ -1,6 +1,6 @@
 ﻿{
     "manifest_version": 2,
-    "name": "autoinput",
+    "name": "超A&Gご利用登録自動入力と送信",
     "description": "超A&Gでご利用登録を自動で入力し、submitを行う。",
     "version": "0.1",
     "content_scripts": [
@@ -9,5 +9,9 @@
 	"css" : [],
 	"js" : [ "autoinput.js" ]
 	}
-    ]
+    ],
+    "options_ui": {
+    	"page": "options.html",
+	"chrome_style": true
+    }
 }
